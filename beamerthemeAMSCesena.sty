@@ -1,0 +1,37 @@
+\ProvidesPackageRCS $Header: /cvsroot/latex-beamer/latex-beamer/themes/theme/beamerthemeAMSCesena.sty,v 1.0 2013/08/12 12:52:50 omicini Exp $
+
+% Copyright 2010 by Andrea Omicini <andrea.omicini@unibo.it>
+%
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+
+
+\mode<presentation>
+
+\beamertemplatenavigationsymbolsempty 
+
+\useoutertheme{infolines}
+\useinnertheme[shadow=true]{rounded}
+\usecolortheme{beaver}
+
+\definecolor{darkred}{rgb}{0.80,0,0.10}
+\definecolor{darkerred}{rgb}{0.75,0,0.10}
+\definecolor{darkestred}{rgb}{0.60,0,0.0}
+
+\setbeamercolor*{item}{fg=darkestred}
+
+\setbeamercolor{block title}{use=structure,fg=white,bg=darkred!65!black}
+\setbeamercolor{block title alerted}{use=alerted text,fg=white,bg=darkerred!75!black}
+\setbeamercolor{block title example}{use=example text,fg=white,bg=darkerred!90!black}
+
+\setbeamercolor{block body}{parent=normal text,use=block title,bg=gray!10!white}
+\setbeamercolor{block body alerted}{parent=normal text,use=block title alerted,bg=block title gray!15!white}
+\setbeamercolor{block body example}{parent=normal text,use=block title example,bg=block title gray!20!white}
+
+%\renewcommand{\emph}[1]{\textcolor{darkerred!75!black}{\textit{#1}}}
+
+\pgfdeclareimage[width=\paperwidth]{bg}{img/almacesena-background}
+\setbeamertemplate{background}{\pgfuseimage{bg}}
+
+\mode
+<all>
