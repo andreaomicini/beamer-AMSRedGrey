@@ -35,7 +35,8 @@ with a different palette, exactly as
 the theme is AMSUniBo's, generated from it with every colour name replaced and
 a handful of assignments changed where a role needed a different shade. The
 options, the commands (`\speaker`, `\ccite`, `\uurl`, `\ddoi`, `\apicepubpar`,
-`\aalert` and their pairs), the workarounds, the references frame and
+`\aalert`, since 1.1 the APICe addresses `\apice`, `\apicesite`, `\apicepage`,
+and their pairs), the workarounds, the references frame and
 `apalike-AMS.bst` are all AMSUniBo's — see
 [its README](https://github.com/andreaomicini/beamer-AMSUniBo#readme) for all of
 them. The faces are not: like AMSBolognaFC, this style keeps LaTeX's own
