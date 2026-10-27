@@ -1,5 +1,7 @@
 # beamer-AMSRedGrey
 
+![AMSRedGrey Beamer style logo](logo/amsredgrey-style-full.svg)
+
 > A simple Beamer-LaTeX style for presentations by Alma Mater Studiorum —
 > Università di Bologna, in the reds and the greys of the old AMSCesena style,
 > recovered
