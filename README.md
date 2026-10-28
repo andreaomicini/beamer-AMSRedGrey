@@ -61,8 +61,13 @@ actually used, and assigned to the roles AMSUniBo's palette has. Where a role
 had no counterpart in the old style, the colour was guessed from the existing
 ones, and the colour theme says so beside it.
 
-Since 1.2.1, as in AMSUniBo 1.7.4, `\emph` in a block title takes the
-title's own colour, italic only, instead of vanishing into the title bar.
+Since 1.3, as in AMSUniBo 1.8.1, the paired commands take their colour from
+the surface they land on: the headers of `block` and `alertblock` are dark, all
+else light. Two letters is the style command, three letters the same command,
+smaller and quieter; `\cccite` is `\ccite`; `\alert` and `\emph` read in a
+header; `\aalert` is the quiet alert. A deck never picks a command for its
+background — see
+[AMSUniBo's README](https://github.com/andreaomicini/beamer-AMSUniBo#structure).
 
 ## structure
 
