@@ -61,6 +61,9 @@ actually used, and assigned to the roles AMSUniBo's palette has. Where a role
 had no counterpart in the old style, the colour was guessed from the existing
 ones, and the colour theme says so beside it.
 
+Since 1.2.1, as in AMSUniBo 1.7.4, `\emph` in a block title takes the
+title's own colour, italic only, instead of vanishing into the title bar.
+
 ## structure
 
 <!-- markdownlint-disable MD013 -->
