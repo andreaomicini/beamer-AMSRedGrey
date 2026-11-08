@@ -1,5 +1,10 @@
 # beamer-AMSRedGrey
 
+> **Frozen since 2026-11-08.** This style is now the `AMSRedGrey` preset of
+> [almamater](https://github.com/andreaomicini/beamer-almamater), the six AMS styles as one: a deck keeps `\usetheme{AMSRedGrey}` and pins
+> `beamer-almamater` instead. Nothing here changes any more; the repository stays readable for the decks'
+> history that pins it. Its themes of the time are on almamater's [`history/redgrey`](https://github.com/andreaomicini/beamer-almamater/tree/history/redgrey) branch, the tags on the same commits.
+
 ![AMSRedGrey Beamer style logo](logo/amsredgrey-style-full.svg)
 
 > A simple Beamer-LaTeX style for presentations by Alma Mater Studiorum —
